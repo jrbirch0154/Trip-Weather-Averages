@@ -101,7 +101,7 @@ def temp_chart(df: pd.DataFrame, city: str) -> go.Figure:
     fig.add_scatter(
         x=df['month_day'],
         y=df['avg_high'],
-        name='avg_high',
+        name='Avg High',
         mode='lines',
         line=dict(color='tomato',width=2)
         # fill='tonexty',
