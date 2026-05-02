@@ -92,7 +92,7 @@ def temp_chart(df: pd.DataFrame, city: str) -> go.Figure:
     
     fig = go.Figure()
     
-    padding = 25
+    padding = 5
     
     lowest = df['avg_low'].min()
     highest = df['avg_high'].max()
