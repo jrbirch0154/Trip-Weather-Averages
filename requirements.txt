@@ -3,5 +3,5 @@ datetime
 requests
 pandas
 time
-plotly.graph_objects
+plotly
 streamlit
