@@ -1,7 +1,5 @@
 geopy
-datetime
 requests
 pandas
-time
 plotly
 streamlit
